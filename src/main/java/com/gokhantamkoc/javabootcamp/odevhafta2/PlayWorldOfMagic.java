@@ -45,7 +45,7 @@ public class PlayWorldOfMagic implements CommandLineRunner {
 		// ______ BASLANGIC _______ Kodunuz buradan baslamali
 		float maxDamageOnSpell = 0;
 		for (int i = 0; i < spellDamageInfo.length ; i++)
-			if(spellDamageInfo[i] > maxDamage)
+			if(spellDamageInfo[i] > maxDamageOnSpell)
 				maxDamageOnSpell = spellDamageInfo[i];
 
 		for (float bossHp : bossHPs)
